@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": true,
+    "editor.fontSize": 24,
+    "files.readonlyFromPermissions": true,
+    "files.readonlyInclude": {
+        "/usr/include/**/*.h": true,
+        "/usr/local/include/**/*.h": true,
+        "/home/ilovealt/Code/**/*.*": true,
+    }
+}

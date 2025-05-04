@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Memcached",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/memcached", // 编译生成的可执行文件路径
+            "args": [
+                "-p",
+                "11211",
+                "-vv"
+            ], // 启动参数（示例：端口11211，详细日志）
+            "stopAtEntry": true, // 在main函数入口暂停
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+        }
+    ]
+}
