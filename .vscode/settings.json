@@ -5,6 +5,8 @@
     "files.readonlyInclude": {
         "/usr/include/**/*.h": true,
         "/usr/local/include/**/*.h": true,
-        "/home/ilovealt/Code/**/*.*": true,
+        "/home/ilovealt/Code/C/memcached/**/*.h": true,
+        "/home/ilovealt/Code/C/memcached/**/*.c": true,
+        "/home/ilovealt/Code/C/memcached/**/*.sh": true
     }
 }
